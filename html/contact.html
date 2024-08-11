@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project</title>
+    <link rel="stylesheet" href="/Users/kiera/Documents/Leila TAFE/web-project/css/main.css">
+</head>
+<body style="background-color: white;">
+  <div class ="container">
+   <header>
+        <img src="/Users/kiera/Documents/Leila TAFE/web-project/images/Aubrey Studios .png" alt="logo" align="centre" style="width: 200px; height:200px;">
+        <img src="/Users/kiera/Documents/Leila TAFE/web-project/images/Aubrey Banner.jpg" alt="banner" align="centre" style="width: 1000px; height: 200px;">
+   </header>
+   <nav>
+       <!--Navigation-->
+       <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="column">
+     <form action="contact_form.php" method="post">
+     <h3>Contact Us</h3>
+     <input type="text" id="name" name="name" placeholder="Your Name">
+     <br>
+     <input type="text" id="address" name="address" placeholder="Your Address">
+     <br>
+     <input type="text" id="email" name="email" placeholder="Your Email Address">
+
+     <br>
+     <input type="text" id="phone" name="phone" placeholder="Your Phone Number">
+      <br>
+     <select id="topic" name="topic">
+     <br>
+     <option value="na">What is your enquiry about</option>
+     <option value="na"></option>
+      <option value="package">Packages</option>
+      <option value="price">Prices</option>
+      <option value="feedback">Feedback</option>
+      <option value="other">Other</option>
+     </select>
+     <br>
+     <p>What is your preferred mode of contact?</p>
+        <input type="radio" id="phone" name="contactmode" value="Phone">
+        <label for="html">Phone</label><br>
+        <input type="radio" id="email" name="contactmode" value="Email">
+        <label for="css">Email</label><br>
+        <input type="radio" id="na" name="contactmode" value="No Preference">
+        <label for="javascript">No Preference</label>
+     <br>
+     <br>
+     <br>
+     <label for="subject"><b>Leave us a message</b></label>
+     <br>
+     <textarea id="subject" name="subject" placeholder="Write your message here..." style="height:200px"></textarea>
+     <br>
+     <input type="submit" value="Submit">
+     </form>
+     <br>
+     <br>
+     <br>
+    </div>
+    <div class="column">
+     <form action="sign-up.php" method="post">
+        <h3>Sign Up</h3>
+        <p>Please fill in this form to create an account.</p>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <br>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <br>
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <br>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+      </div>
+    </form>
+
+    <table style="width:100%">
+      <tr>
+        <th>Admin Contact Name</th>
+        <th>Email Address</th>
+        <th>Business Address</th>
+        <th>Phone Number</th>
+      </tr>
+      <tr>
+        <td>Leila Aubrey</td>
+        <td>leilaaubrey@email.com</td>
+        <td>123 Street Name, Suburb, QLD 1234</td>
+        <td>123456789</td>
+      </tr>
+    </table>
+
+   <footer>
+      <a href="https://www.instagram.com/"><img src="/Users/kiera/Documents/Leila TAFE/web-project/images/instagram.png" alt="footer instagram" style="width: 45px; height: 45px;"></a>
+      <a href="https://www.facebook.com/login/"><img src="/Users/kiera/Documents/Leila TAFE/web-project/images/facebook.png" alt="footer facebook" style="width: 50px; height: 50px;"></a>
+      <a href="https://www.youtube.com/"><img src="/Users/kiera/Documents/Leila TAFE/web-project/images/youtube.png" alt="footer youtube"  style="width: 50px; height: 50px;"></a>
+     <p> &copy; 2024 Leila Aubrey</p>
+    </footer> 
+    </div>
+  </body>
+</html>

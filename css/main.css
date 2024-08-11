@@ -1,0 +1,177 @@
+body {
+    font-family: sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    position: sticky;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+footer {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 30px;
+  background-color: antiquewhite;
+}
+
+.container {
+  width : 1300px;
+  margin : 0 auto ; 
+  background-color: white;
+}
+
+img {
+  margin: 15px 15px 15px 15px;
+  position:sticky;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: antiquewhite;
+  overflow: hidden;
+  padding: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: centre;
+  color: black;
+  text-align: center;
+  padding: 177px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(255, 244, 231);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(255, 244, 231);
+  color: black;
+}
+
+  
+  /* Header Text Style */
+  .header a {
+    float: center;
+    position: sticky;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+    text-decoration: none;
+    font-size: 60px;
+  }
+
+
+  form {
+    text-align: justify;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #000000; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 8px; /* Add a top margin */
+  margin-bottom: 8px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: antiquewhite;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(255, 217, 167);
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 43%;
+  padding: 40px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+figcaption {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: antiquewhite;
+}
+
+
+button {
+  background-color: antiquewhite;
+  color: black;
+  padding: 12px 30px;
+  margin: 12px 0;
+  border: white;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(255, 217, 167);
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 12px 20px;
+  background-color: rgb(255, 184, 162);
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  text-align: justify;
+  width: 20%;
+  background-color: antiquewhite;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Clear floats after image containers */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
